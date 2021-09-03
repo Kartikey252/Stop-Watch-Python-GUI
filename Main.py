@@ -16,6 +16,7 @@ class StopWatch(Tk):
         self.geometry('400x300+750+250')
         self.title('Sky Dive Stop Watch')
         self.config(bg='#10111b')
+        self.wm_iconbitmap(r'icon.ico')
         self.resizable(False, False)
     
     def addFrames(self):
